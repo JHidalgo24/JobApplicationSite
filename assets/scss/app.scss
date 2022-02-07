@@ -1,0 +1,93 @@
+//overide all variables first
+
+
+//wctc color
+$primary: #293C5A;
+$light-primary:lighten(#003e7a,30%);
+
+
+//makes hover not be white bg and gray text
+$dropdown-link-hover-bg: darken($primary,10%);
+$dropdown-link-hover-color: white;
+
+$breadcrumb-bg:white;
+
+
+.bg-light-primary{
+  background-color:$light-primary !important;
+}
+
+.rounded-more{
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+}
+.breadcrumb-item.active{
+  font-weight: bolder !important;
+  color: darken($primary,10%);
+}
+
+.pinfo h5{
+  font-weight: lighter;
+}
+.pinfo p{
+  font-weight: normal;
+}
+$nav-tabs-link-active-bg:$primary;
+$nav-tabs-link-active-color:white;
+
+.w-33{
+  width: 33%;
+}
+$nav-tabs-link-hover-border-color:white;
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%) !important;
+}
+
+.carousel-item{
+  width: auto; /*width you want*/
+  height: 100%; /*height you want*/
+  overflow: hidden;
+}
+
+// import bootstrap library
+@import "bootstrap/bootstrap";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
